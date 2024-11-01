@@ -41,7 +41,7 @@ export default function Home() {
                 <img 
                   src="/dante.jpg" 
                   alt="Dante O. Cuales, Jr." 
-                  className="rounded-full w-96 h-96 object-cover mx-auto" 
+                  className="rounded-full w-80 h-80 object-cover mx-auto" 
                 />
               </div>
               <div className="md:w-1/2">
