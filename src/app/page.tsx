@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, User, Briefcase, Phone } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -38,10 +39,12 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">About Me</h2>
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="md:w-1/2 mb-8 md:mb-0">
-                <img 
+                <Image 
                   src="/dante.jpg" 
                   alt="Dante O. Cuales, Jr." 
-                  className="rounded-full w-80 h-80 object-cover mx-auto" 
+                  className="rounded-full w-80 h-80 object-cover mx-auto"
+                  width={320}
+                  height={320}
                 />
               </div>
               <div className="md:w-1/2">
@@ -52,7 +55,7 @@ export default function Home() {
                   At Advisory Collective, we offer a unique model that combines independence and collaboration, empowering businesses to access C-level expertise without the full-time cost. Our focus is on delivering fractional leadership in key areas like Product, Engineering, Design, People Operations, and Customer Success, helping businesses execute world-class strategies with precision and efficiency.
                 </p>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Prior to joining Advisory Collective, my tenure at BloomTech, where I helped drive the growth of an AI program, provided me with a strong foundation in education technology and customer success. I'm passionate about leveraging technology and innovative thinking to solve complex business challenges and empower leaders to thrive.
+                  Prior to joining Advisory Collective, my tenure at BloomTech, where I helped drive the growth of an AI program, provided me with a strong foundation in education technology and customer success. I&apos;m passionate about leveraging technology and innovative thinking to solve complex business challenges and empower leaders to thrive.
                 </p>
                 <p className="text-gray-600 dark:text-gray-300">
                   Beyond my professional endeavors, I am committed to continuous learning and growth, and I remain deeply passionate about education technology, AI, and sales. I also enjoy writing, and I use storytelling as a tool to inspire and engage with customers.
@@ -83,7 +86,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  I'm always open to new opportunities and collaborations. Feel free to reach out!
+                  I&apos;m always open to new opportunities and collaborations. Feel free to reach out!
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center text-gray-600 dark:text-gray-300">
