@@ -39,17 +39,31 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="md:w-1/2 mb-8 md:mb-0">
                 <img 
-                  src="/api/placeholder/300/300" 
-                  alt="John Doe" 
+                  src="/dante.jpg" 
+                  alt="Dante O. Cuales, Jr." 
                   className="rounded-full w-64 h-64 object-cover mx-auto" 
                 />
               </div>
               <div className="md:w-1/2">
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Hello! I'm John, a passionate web developer with 5 years of experience in creating beautiful and functional websites. I specialize in React, Next.js, and Tailwind CSS.
+                  As a Sales & Business Development Manager at Advisory Collective, I bring my passion for driving growth and creating meaningful impact to a visionary company that provides elite, fractional executive leadership to growing businesses. My role allows me to collaborate with high-level industry leaders and leverage my expertise in sales development, customer success, and strategic partnerships to support founders as they scale their companies.
+                </p>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  At Advisory Collective, we offer a unique model that combines independence and collaboration, empowering businesses to access C-level expertise without the full-time cost. Our focus is on delivering fractional leadership in key areas like Product, Engineering, Design, People Operations, and Customer Success, helping businesses execute world-class strategies with precision and efficiency.
+                </p>
+                <div className="mb-4">
+                  <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">Key Focus Areas:</h3>
+                  <ul className="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                    <li>Strategic Sales Development: Developing tailored sales strategies to align with the unique needs of each client, building strong relationships with business leaders across a variety of industries.</li>
+                    <li>Lead Qualification & Pipeline Management: Utilizing a data-driven approach to identify and qualify leads, while managing the sales pipeline to ensure seamless engagements and meaningful partnerships.</li>
+                    <li>Collaboration with Fractional Leaders: Working closely with Advisory Collective's elite team of fractional executives to align our services with client needs, fostering growth and innovation.</li>
+                  </ul>
+                </div>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  Prior to joining Advisory Collective, my tenure at BloomTech, where I helped drive the growth of an AI program, provided me with a strong foundation in education technology and customer success. I'm passionate about leveraging technology and innovative thinking to solve complex business challenges and empower leaders to thrive.
                 </p>
                 <p className="text-gray-600 dark:text-gray-300">
-                  When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good book.
+                  Beyond my professional endeavors, I am committed to continuous learning and growth, and I remain deeply passionate about education technology, AI, and sales. I also enjoy writing, and I use storytelling as a tool to inspire and engage with customers.
                 </p>
               </div>
             </div>
@@ -89,7 +103,7 @@ export default function Home() {
                 <ul className="space-y-2">
                   <li className="flex items-center text-gray-600 dark:text-gray-300">
                     <Mail className="mr-2" size={20} />
-                    john.doe@example.com
+                    danteocualesjr@gmail.com
                   </li>
                   <li className="flex items-center text-gray-600 dark:text-gray-300">
                     <Phone className="mr-2" size={20} />
@@ -97,11 +111,11 @@ export default function Home() {
                   </li>
                   <li className="flex items-center text-gray-600 dark:text-gray-300">
                     <User className="mr-2" size={20} />
-                    @johndoe
+                    @danteocualesjr
                   </li>
                   <li className="flex items-center text-gray-600 dark:text-gray-300">
                     <Briefcase className="mr-2" size={20} />
-                    Available for freelance
+                    Sales & Business Development Manager
                   </li>
                 </ul>
               </div>
@@ -127,7 +141,7 @@ export default function Home() {
 
       <footer className="bg-white dark:bg-gray-800 py-6">
         <div className="container mx-auto px-6 text-center">
-          <p className="text-gray-600 dark:text-gray-300">&copy; 2024 John Doe. All rights reserved.</p>
+          <p className="text-gray-600 dark:text-gray-300">&copy; 2024 Dante O. Cuales, Jr. All rights reserved.</p>
         </div>
       </footer>
     </div>
