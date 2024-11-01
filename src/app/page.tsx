@@ -1,7 +1,6 @@
 import { Github, Linkedin, Mail, User, Briefcase, Phone } from 'lucide-react'
 
 export default function Home() {
-  
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <header className="sticky top-0 z-10 bg-white dark:bg-gray-800 shadow-sm">
@@ -33,3 +32,30 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section id="about" className="bg-gray-100 dark:bg-gray-900 py-20">
+          <div className="container mx-auto px-6">
+            <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">About Me</h2>
+            <div className="flex flex-col md:flex-row items-center justify-between">
+              <div className="md:w-1/2 mb-8 md:mb-0">
+                <img 
+                  src="/api/placeholder/300/300" 
+                  alt="John Doe" 
+                  className="rounded-full w-64 h-64 object-cover mx-auto" 
+                />
+              </div>
+              <div className="md:w-1/2">
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  Hello! I'm John, a passionate web developer with 5 years of experience in creating beautiful and functional websites. I specialize in React, Next.js, and Tailwind CSS.
+                </p>
+                <p className="text-gray-600 dark:text-gray-300">
+                  When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good book.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  )
+}
