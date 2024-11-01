@@ -1,6 +1,7 @@
 import { Github, Linkedin, Mail, User, Briefcase, Phone } from 'lucide-react'
 
 export default function Home() {
+  
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <header className="sticky top-0 z-10 bg-white dark:bg-gray-800 shadow-sm">
