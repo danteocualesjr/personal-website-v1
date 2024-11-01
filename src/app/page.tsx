@@ -10,6 +10,7 @@ export default function Home() {
             <li><a href="#home" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Home</a></li>
             <li><a href="#about" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">About</a></li>
             <li><a href="#projects" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Projects</a></li>
+            <li><a href="#blog" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Blog</a></li>
             <li><a href="#contact" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Contact</a></li>
           </ul>
         </nav>
@@ -80,7 +81,35 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contact" className="bg-gray-100 dark:bg-gray-900 py-20">
+        <section id="blog" className="bg-gray-100 dark:bg-gray-900 py-20">
+          <div className="container mx-auto px-6">
+            <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">Blog</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <article className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md">
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">The Future of Fractional Leadership</h3>
+                  <p className="text-gray-600 dark:text-gray-300 mb-4">Exploring how fractional leadership is reshaping the way businesses access executive expertise...</p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-500 dark:text-gray-400">March 15, 2024</span>
+                    <a href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300">Read More</a>
+                  </div>
+                </div>
+              </article>
+              <article className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md">
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">AI in Business Development</h3>
+                  <p className="text-gray-600 dark:text-gray-300 mb-4">How artificial intelligence is transforming the landscape of business development and sales...</p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-500 dark:text-gray-400">March 1, 2024</span>
+                    <a href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300">Read More</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" className="bg-white dark:bg-gray-800 py-20">
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">Contact Me</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
