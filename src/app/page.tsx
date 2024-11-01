@@ -20,13 +20,13 @@ export default function Home() {
             <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">Dante O. Cuales, Jr.</h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">Sales & Business Development Manager @ Advisory Collective</p>
             <div className="flex justify-center space-x-4">
-              <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+              <a href="https://github.com/danteocualesjr" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
                 <Github size={24} />
               </a>
-              <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+              <a href="https://www.linkedin.com/in/danteocualesjr/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
                 <Linkedin size={24} />
               </a>
-              <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+              <a href="mailto:danteocualesjr@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
                 <Mail size={24} />
               </a>
             </div>
@@ -41,7 +41,7 @@ export default function Home() {
                 <img 
                   src="/dante.jpg" 
                   alt="Dante O. Cuales, Jr." 
-                  className="rounded-full w-64 h-64 object-cover mx-auto" 
+                  className="rounded-full w-96 h-96 object-cover mx-auto" 
                 />
               </div>
               <div className="md:w-1/2">
@@ -51,14 +51,6 @@ export default function Home() {
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
                   At Advisory Collective, we offer a unique model that combines independence and collaboration, empowering businesses to access C-level expertise without the full-time cost. Our focus is on delivering fractional leadership in key areas like Product, Engineering, Design, People Operations, and Customer Success, helping businesses execute world-class strategies with precision and efficiency.
                 </p>
-                <div className="mb-4">
-                  <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">Key Focus Areas:</h3>
-                  <ul className="list-disc pl-5 text-gray-600 dark:text-gray-300">
-                    <li>Strategic Sales Development: Developing tailored sales strategies to align with the unique needs of each client, building strong relationships with business leaders across a variety of industries.</li>
-                    <li>Lead Qualification & Pipeline Management: Utilizing a data-driven approach to identify and qualify leads, while managing the sales pipeline to ensure seamless engagements and meaningful partnerships.</li>
-                    <li>Collaboration with Fractional Leaders: Working closely with Advisory Collective's elite team of fractional executives to align our services with client needs, fostering growth and innovation.</li>
-                  </ul>
-                </div>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
                   Prior to joining Advisory Collective, my tenure at BloomTech, where I helped drive the growth of an AI program, provided me with a strong foundation in education technology and customer success. I'm passionate about leveraging technology and innovative thinking to solve complex business challenges and empower leaders to thrive.
                 </p>
@@ -75,17 +67,10 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[1, 2, 3].map((project) => (
-                <div key={project} className="bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden shadow-md">
-                  <img 
-                    src={`/api/placeholder/400/200`} 
-                    alt={`Project ${project}`} 
-                    className="w-full h-48 object-cover" 
-                  />
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">Project {project}</h3>
-                    <p className="text-gray-600 dark:text-gray-300 mb-4">A brief description of the project and the technologies used.</p>
-                    <a href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300">View Project</a>
-                  </div>
+                <div key={project} className="bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden shadow-md p-6">
+                  <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">Project {project}</h3>
+                  <p className="text-gray-600 dark:text-gray-300 mb-4">A brief description of the project and the technologies used.</p>
+                  <a href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300">View Project</a>
                 </div>
               ))}
             </div>
@@ -107,7 +92,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-center text-gray-600 dark:text-gray-300">
                     <Phone className="mr-2" size={20} />
-                    +1 (123) 456-7890
+                    +639562853231
                   </li>
                   <li className="flex items-center text-gray-600 dark:text-gray-300">
                     <User className="mr-2" size={20} />
