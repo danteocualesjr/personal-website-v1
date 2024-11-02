@@ -115,6 +115,16 @@ export default function Home() {
                   </div>
                 </div>
               </article>
+              <article className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md">
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">The Power of Storytelling in Sales</h3>
+                  <p className="text-gray-600 dark:text-gray-300 mb-4">How crafting compelling narratives can enhance your sales strategy and connect with clients...</p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-500 dark:text-gray-400">February 1, 2024</span>
+                    <a href="#" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300">Read More</a>
+                  </div>
+                </div>
+              </article>
             </div>
           </div>
         </section>
