@@ -252,11 +252,11 @@ export default function Home() {
 
         <section id="contact" className="bg-gray-100 dark:bg-gray-900 py-20">
           <div className="container mx-auto px-6">
-            <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">Let's Connect</h2>
+            <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">Let&apos;s Connect</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  I&apos;m always open to new opportunities and collaborations. Whether you want to discuss business, share ideas, or just say hello, feel free to reach out!
+                I&apos;m always open to new opportunities and collaborations. Whether you want to discuss business, share ideas, or just say hello, feel free to reach out!
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
