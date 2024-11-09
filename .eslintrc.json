@@ -1,9 +1,6 @@
 {
-  // Extend Next.js core web API ESLint configuration
   "extends": "next/core-web-api",
   "rules": {
-    // Disable the rule that warns about unescaped entities in JSX
-    // This allows us to use apostrophes and quotes directly in text
     "react/no-unescaped-entities": "off"
   }
 }
