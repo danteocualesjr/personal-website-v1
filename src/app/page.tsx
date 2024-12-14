@@ -11,8 +11,9 @@ export default function Home() {
       <header className="sticky top-0 z-10 bg-white dark:bg-gray-800 shadow-sm">
 
         <nav className="container mx-auto px-6 py-3">
-          
+
           <ul className="flex justify-center space-x-6">
+            
             <li><a href="#home" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Home</a></li>
             <li><a href="#about" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">About</a></li>
             <li><a href="#experience" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Experience</a></li>
