@@ -15,8 +15,9 @@ export default function Home() {
           <ul className="flex justify-center space-x-6">
             
             <li><a href="#home" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Home</a></li>
-            
+
             <li><a href="#about" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">About</a></li>
+            
             <li><a href="#experience" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Experience</a></li>
             <li><a href="#projects" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Projects</a></li>
             <li><a href="#blog" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Blog</a></li>
