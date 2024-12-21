@@ -27,8 +27,9 @@ export default function Home() {
             <li><a href="#contact" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Contact</a></li>
             
           </ul>
-          
+
         </nav>
+        
       </header>
 
       <main>
