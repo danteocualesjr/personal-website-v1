@@ -35,6 +35,7 @@ export default function Home() {
       <main>
         
         <section id="home" className="bg-white dark:bg-gray-800 py-20">
+          
           <div className="container mx-auto px-6 text-center">
             <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">Dante O. Cuales, Jr.</h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">Sales & Business Development Manager @ Advisory Collective</p>
