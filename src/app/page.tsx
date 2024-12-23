@@ -39,8 +39,9 @@ export default function Home() {
           <div className="container mx-auto px-6 text-center">
             
             <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">Dante O. Cuales, Jr.</h1>
-            
+
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">Sales & Business Development Manager @ Advisory Collective</p>
+            
             <div className="flex justify-center space-x-4 mb-8">
               <a href="https://github.com/danteocualesjr" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
                 <Github size={24} />
