@@ -52,9 +52,10 @@ export default function Home() {
                 <Linkedin size={24} />
 
               </a>
+              
               <a href="mailto:danteocualesjr@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
                 <Mail size={24} />
-                
+
               </a>
             </div>
             <div className="flex justify-center space-x-4">
