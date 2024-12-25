@@ -59,8 +59,9 @@ export default function Home() {
               </a>
 
             </div>
-            
+
             <div className="flex justify-center space-x-4">
+              
               <a 
                 href="/resume.pdf" 
                 download
