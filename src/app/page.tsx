@@ -67,6 +67,7 @@ export default function Home() {
                 download
                 className="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition-colors flex items-center"
               >
+                
                 <Download size={20} className="mr-2" />
                 Download Resume
               </a>
