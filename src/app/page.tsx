@@ -76,8 +76,9 @@ export default function Home() {
                 href="#contact" 
                 className="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition-colors flex items-center"
               >
-                
+
                 <Mail size={20} className="mr-2" />
+                
                 Contact Me
               </a>
             </div>
