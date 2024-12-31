@@ -82,8 +82,9 @@ export default function Home() {
                 Contact Me
 
               </a>
-              
+
             </div>
+            
           </div>
         </section>
 
