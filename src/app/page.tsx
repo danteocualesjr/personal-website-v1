@@ -80,8 +80,9 @@ export default function Home() {
                 <Mail size={20} className="mr-2" />
                 
                 Contact Me
-                
+
               </a>
+              
             </div>
           </div>
         </section>
