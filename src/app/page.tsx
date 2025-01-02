@@ -86,6 +86,7 @@ export default function Home() {
             </div>
             
           </div>
+          
         </section>
 
         <section id="about" className="bg-gray-100 dark:bg-gray-900 py-20">
