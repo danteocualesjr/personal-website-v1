@@ -90,9 +90,11 @@ export default function Home() {
         </section>
 
         <section id="about" className="bg-gray-100 dark:bg-gray-900 py-20">
-          
+
           <div className="container mx-auto px-6">
+
             <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">About Me</h2>
+            
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="md:w-1/2 mb-8 md:mb-0">
                 <div className="relative">
