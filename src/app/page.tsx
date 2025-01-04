@@ -96,6 +96,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">About Me</h2>
             
             <div className="flex flex-col md:flex-row items-center justify-between">
+              
               <div className="md:w-1/2 mb-8 md:mb-0">
                 <div className="relative">
                   <Image 
