@@ -100,7 +100,7 @@ export default function Home() {
               <div className="md:w-1/2 mb-8 md:mb-0">
               
                 <div className="relative">
-                  
+
                   <Image 
                     src="/dante.jpg" 
                     alt="Dante O. Cuales, Jr." 
@@ -108,6 +108,7 @@ export default function Home() {
                     width={320}
                     height={320}
                   />
+                  
                   <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
                     <span className="bg-blue-500 text-white px-4 py-1 rounded-full text-sm">Available for opportunities</span>
                   </div>
