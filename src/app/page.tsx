@@ -110,6 +110,7 @@ export default function Home() {
                   />
                   
                   <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
+                  
                     <span className="bg-blue-500 text-white px-4 py-1 rounded-full text-sm">Available for opportunities</span>
                   </div>
                 </div>
