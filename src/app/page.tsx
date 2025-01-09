@@ -100,6 +100,7 @@ export default function Home() {
               <div className="md:w-1/2 mb-8 md:mb-0">
               
                 <div className="relative">
+                  
                   <Image 
                     src="/dante.jpg" 
                     alt="Dante O. Cuales, Jr." 
