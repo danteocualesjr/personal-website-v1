@@ -116,8 +116,9 @@ export default function Home() {
                   </div>
                   
                 </div>
-                
+
               </div>
+              
               <div className="md:w-1/2">
                 <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
