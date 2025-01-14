@@ -124,8 +124,9 @@ export default function Home() {
                 <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
 
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    
+
                     As a Sales & Business Development Manager at Advisory Collective, I bring my passion for driving growth and creating meaningful impact to a visionary company that provides elite, fractional executive leadership to growing businesses. My role allows me to collaborate with high-level industry leaders and leverage my expertise in sales development, customer success, and strategic partnerships to support founders as they scale their companies.
+                    
                   </p>
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
                     At Advisory Collective, we offer a unique model that combines independence and collaboration, empowering businesses to access C-level expertise without the full-time cost. Our focus is on delivering fractional leadership in key areas like Product, Engineering, Design, People Operations, and Customer Success, helping businesses execute world-class strategies with precision and efficiency.
