@@ -128,10 +128,11 @@ export default function Home() {
                     As a Sales & Business Development Manager at Advisory Collective, I bring my passion for driving growth and creating meaningful impact to a visionary company that provides elite, fractional executive leadership to growing businesses. My role allows me to collaborate with high-level industry leaders and leverage my expertise in sales development, customer success, and strategic partnerships to support founders as they scale their companies.
                     
                   </p>
-                  
+
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
                     At Advisory Collective, we offer a unique model that combines independence and collaboration, empowering businesses to access C-level expertise without the full-time cost. Our focus is on delivering fractional leadership in key areas like Product, Engineering, Design, People Operations, and Customer Success, helping businesses execute world-class strategies with precision and efficiency.
                   </p>
+                  
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
                     Prior to joining Advisory Collective, my tenure at BloomTech, where I helped drive the growth of an AI program, provided me with a strong foundation in education technology and customer success. I&apos;m passionate about leveraging technology and innovative thinking to solve complex business challenges and empower leaders to thrive.
                   </p>
