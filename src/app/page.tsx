@@ -136,10 +136,11 @@ export default function Home() {
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
                     Prior to joining Advisory Collective, my tenure at BloomTech, where I helped drive the growth of an AI program, provided me with a strong foundation in education technology and customer success. I&apos;m passionate about leveraging technology and innovative thinking to solve complex business challenges and empower leaders to thrive.
                   </p>
-                  
+
                   <p className="text-gray-600 dark:text-gray-300">
                     Beyond my professional endeavors, I am committed to continuous learning and growth, and I remain deeply passionate about education technology, AI, and sales. I also enjoy writing, and I use storytelling as a tool to inspire and engage with customers.
                   </p>
+                  
                 </div>
                 <div className="mt-6 grid grid-cols-2 gap-4">
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
