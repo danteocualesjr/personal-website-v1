@@ -144,8 +144,9 @@ export default function Home() {
                 </div>
                 
                 <div className="mt-6 grid grid-cols-2 gap-4">
-                  
+
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
+                    
                     <h3 className="font-semibold text-gray-800 dark:text-white mb-2">Skills</h3>
                     <div className="flex flex-wrap gap-2">
                       {['Sales', 'Business Development', 'Leadership', 'Strategy', 'Customer Success'].map((skill) => (
