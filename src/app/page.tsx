@@ -150,12 +150,13 @@ export default function Home() {
                     <h3 className="font-semibold text-gray-800 dark:text-white mb-2">Skills</h3>
                     
                     <div className="flex flex-wrap gap-2">
-                      
+
                       {['Sales', 'Business Development', 'Leadership', 'Strategy', 'Customer Success'].map((skill) => (
                         <span key={skill} className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-full text-sm">
                           {skill}
                         </span>
                       ))}
+                      
                     </div>
                   </div>
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
