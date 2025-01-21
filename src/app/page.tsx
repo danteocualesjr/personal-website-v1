@@ -164,8 +164,9 @@ export default function Home() {
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
 
                     <h3 className="font-semibold text-gray-800 dark:text-white mb-2">Interests</h3>
-                    
+
                     <div className="flex flex-wrap gap-2">
+                      
                       {['AI', 'EdTech', 'Writing', 'Innovation', 'Technology'].map((interest) => (
                         <span key={interest} className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded-full text-sm">
                           {interest}
