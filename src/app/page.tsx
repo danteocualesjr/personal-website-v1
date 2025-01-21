@@ -162,6 +162,7 @@ export default function Home() {
                   </div>
                   
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
+                    
                     <h3 className="font-semibold text-gray-800 dark:text-white mb-2">Interests</h3>
                     <div className="flex flex-wrap gap-2">
                       {['AI', 'EdTech', 'Writing', 'Innovation', 'Technology'].map((interest) => (
