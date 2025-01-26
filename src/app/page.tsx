@@ -172,8 +172,9 @@ export default function Home() {
                           {interest}
                         </span>
                       ))}
-                      
+
                     </div>
+                    
                   </div>
                 </div>
               </div>
