@@ -184,6 +184,7 @@ export default function Home() {
             </div>
             
           </div>
+          
         </section>
 
         <section id="experience" className="bg-white dark:bg-gray-800 py-20">
