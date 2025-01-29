@@ -184,10 +184,11 @@ export default function Home() {
             </div>
             
           </div>
-          
+
         </section>
 
         <section id="experience" className="bg-white dark:bg-gray-800 py-20">
+          
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">Professional Experience</h2>
             <div className="space-y-8">
