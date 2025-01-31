@@ -198,8 +198,9 @@ export default function Home() {
               <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
 
                 <div className="flex justify-between items-start mb-4">
-                  
+
                   <div>
+                    
                     <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Sales & Business Development Manager</h3>
                     <p className="text-blue-600 dark:text-blue-400">Advisory Collective</p>
                   </div>
