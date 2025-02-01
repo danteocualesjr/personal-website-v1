@@ -2,6 +2,7 @@ import math
 import pygame
 
 # Initialize Pygame
+
 pygame.init()
 
 # Screen dimensions
