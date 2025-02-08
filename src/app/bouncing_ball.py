@@ -16,6 +16,7 @@ pygame.display.set_caption("Bouncing Ball in a Spinning Hexagon")
 clock = pygame.time.Clock()
 
 # Colors
+
 WHITE = (255, 255, 255)
 BLUE = (50, 50, 255)
 RED = (255, 50, 50)
