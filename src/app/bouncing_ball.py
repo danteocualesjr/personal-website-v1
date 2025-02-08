@@ -26,6 +26,7 @@ RED = (255, 50, 50)
 BLACK = (0, 0, 0)
 
 # Hexagon (spinning container) properties
+
 hex_center = (WIDTH // 2, HEIGHT // 2)
 hex_radius = 250
 hex_rotation = 0.0  # current rotation angle in radians
