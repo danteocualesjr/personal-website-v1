@@ -32,6 +32,7 @@ hex_center = (WIDTH // 2, HEIGHT // 2)
 hex_radius = 250
 
 hex_rotation = 0.0  # current rotation angle in radians
+
 hex_angular_velocity = math.radians(30)  # 30 degrees per second
 
 # Ball properties
