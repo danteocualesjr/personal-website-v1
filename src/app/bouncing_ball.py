@@ -38,7 +38,9 @@ hex_angular_velocity = math.radians(30)  # 30 degrees per second
 # Ball properties
 
 ball_radius = 10
+
 ball_pos = [hex_center[0], hex_center[1] - 100]
+
 ball_vel = [150.0, 0.0]  # initial velocity
 
 # Physics parameters
