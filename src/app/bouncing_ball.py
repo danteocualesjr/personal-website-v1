@@ -44,6 +44,7 @@ ball_pos = [hex_center[0], hex_center[1] - 100]
 ball_vel = [150.0, 0.0]  # initial velocity
 
 # Physics parameters
+
 gravity = 300.0           # pixels per second^2
 restitution = 0.9         # bounciness factor
 collision_friction = 0.98 # friction factor for tangential velocity
