@@ -52,6 +52,7 @@ restitution = 0.9         # bounciness factor
 collision_friction = 0.98 # friction factor for tangential velocity
 
 def rotate_point(point, angle, origin):
+    
     """Rotate a point around a given origin by angle (radians)."""
     ox, oy = origin
     px, py = point
