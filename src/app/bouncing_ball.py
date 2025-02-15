@@ -56,8 +56,9 @@ def rotate_point(point, angle, origin):
     """Rotate a point around a given origin by angle (radians)."""
     
     ox, oy = origin
-    
+
     px, py = point
+    
     cos_a = math.cos(angle)
     sin_a = math.sin(angle)
     qx = ox + cos_a * (px - ox) - sin_a * (py - oy)
