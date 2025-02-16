@@ -64,8 +64,9 @@ def rotate_point(point, angle, origin):
     sin_a = math.sin(angle)
     
     qx = ox + cos_a * (px - ox) - sin_a * (py - oy)
-    
+
     qy = oy + sin_a * (px - ox) + cos_a * (py - oy)
+    
     return (qx, qy)
 
 def compute_hexagon_vertices(center, radius, rotation):
