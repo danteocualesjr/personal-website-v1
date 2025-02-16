@@ -66,10 +66,11 @@ def rotate_point(point, angle, origin):
     qx = ox + cos_a * (px - ox) - sin_a * (py - oy)
 
     qy = oy + sin_a * (px - ox) + cos_a * (py - oy)
-    
+
     return (qx, qy)
 
 def compute_hexagon_vertices(center, radius, rotation):
+    
     """Return a list of 6 vertices (tuples) of a regular hexagon rotated by 'rotation'."""
     vertices = []
     for i in range(6):
