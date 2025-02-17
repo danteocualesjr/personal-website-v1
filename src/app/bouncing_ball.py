@@ -72,6 +72,7 @@ def rotate_point(point, angle, origin):
 def compute_hexagon_vertices(center, radius, rotation):
     
     """Return a list of 6 vertices (tuples) of a regular hexagon rotated by 'rotation'."""
+    
     vertices = []
     for i in range(6):
         angle = rotation + 2 * math.pi * i / 6
