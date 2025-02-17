@@ -76,6 +76,7 @@ def compute_hexagon_vertices(center, radius, rotation):
     vertices = []
     
     for i in range(6):
+        
         angle = rotation + 2 * math.pi * i / 6
         x = center[0] + radius * math.cos(angle)
         y = center[1] + radius * math.sin(angle)
