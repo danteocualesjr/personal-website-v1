@@ -84,10 +84,11 @@ def compute_hexagon_vertices(center, radius, rotation):
         y = center[1] + radius * math.sin(angle)
         
         vertices.append((x, y))
-        
+
     return vertices
 
 def normalize(vec):
+    
     x, y = vec
     mag = math.hypot(x, y)
     if mag == 0:
