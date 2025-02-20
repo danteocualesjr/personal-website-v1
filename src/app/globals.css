@@ -3,14 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FDF6F2;
+  --foreground: #0A4B75;
+  --accent: #E85C3F;
+  --card-background: #FFFFFF;
+  --text-muted: #666666;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* You can either keep dark mode with different colors,
+       or use the same colors as light mode */
+    --background: #FDF6F2;
+    --foreground: #0A4B75;
+    --accent: #E85C3F;
+    --card-background: #FFFFFF;
+    --text-muted: #666666;
   }
 }
 
@@ -18,4 +26,21 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Utility classes for the new colors */
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.bg-card {
+  background-color: var(--card-background);
+}
+
+.text-muted {
+  color: var(--text-muted);
 }
