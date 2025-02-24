@@ -34,8 +34,9 @@ body {
 /* Utility classes for the new colors */
 
 .text-accent {
-  
+
   color: var(--accent);
+  
 }
 
 .bg-accent {
